@@ -1,0 +1,109 @@
+@font-face {
+  font-family: Bakilda-Histori;
+  src: url("../bakilda-histori-font-1716167151-0/bakilda-histori.ttf");
+}
+@font-face {
+    font-family: product-sans;
+    src: url("../product-sans/Product\ Sans\ Regular.ttf");
+}
+
+.trust-factore {
+  width: 100%;
+  background-image: url("../images/img.png");
+  background-size: cover;
+  background-position: center;
+  margin: 50px 0;
+}
+
+.factor-h1 {
+  font-family: Bakilda-Histori;
+  font-size: 40px;
+  color: #512c20;
+  padding: 100px 0 0 0;
+  text-align: center;
+  /* margin-top: 20px; */
+}
+
+.card-factor {
+  max-width: 1320px;
+  min-width: 250px;
+  margin: 0 auto;
+}
+
+.card-quality {
+  width: 299px;
+  height: 195px;
+  /* border: 1px solid black; */
+}
+
+.card-bg {
+  width: 115px;
+  height: 115px;
+  margin: 0 auto;
+  background-color: #512c20;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-1 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.best-quality{
+    /* width:286px ; */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 10px 0;
+}
+.bestp{
+    color:  #512C20;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    font-family: product-sans;
+}
+.qualityp{
+    font-family: product-sans;
+    font-size: 14px;
+    color: #512C20;
+    line-height: 30px;
+
+}
+.card-flex{
+    display: flex;
+    /* grid-template-columns: repeat(4,1fr); */
+    justify-content: space-between;
+    align-items: center;
+    padding: 54px 0 186px 0;
+}
+.quality-border{
+    border: 2px solid #512C20;
+    width: 112px;
+    margin-top: 10px;
+    /* left: 87px; */
+    /* text-align: center; */
+}
+.factor-bottom{
+    text-align: right;
+    margin: -1px 0;
+}
+.trust-100{
+    text-align: justify;
+}
+
+@media screen and (max-width:1024px) {
+  .card-flex{
+    flex-wrap: wrap;
+    row-gap: 50px;
+    justify-content: center;
+  }
+  
+}
+@media screen and (max-width:768px){
+  .card-quality{
+    max-width: 768px;
+  }
+}

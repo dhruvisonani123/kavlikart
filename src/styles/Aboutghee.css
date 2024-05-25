@@ -1,0 +1,72 @@
+@font-face {
+    font-family:Bakilda Histori ;
+    src: url(../bakilda-histori-font-1716167151-0/bakilda-histori.ttf)
+}
+@font-face {
+    font-family: product-sans;
+    src: url("../product-sans/Product\ Sans\ Regular.ttf");
+}
+
+.About-container-main{
+    width: 100%;
+    background-image: url("../images/img.png");
+    background-size: cover;
+    background-position: center;
+}
+.bilona{
+    max-width: 1230px;
+    min-width: 250px;
+    margin: 0 auto;
+}
+.know-bilona{
+    max-width:647px ;
+    min-width: 250px;
+}
+.about-bilona{
+    max-width:439px;
+    min-width: 250px;
+    padding: 161px 0;
+}
+
+.know-p-container{
+    font-family: Bakilda Histori;
+    font-size: 50px;
+    text-align: left;
+    line-height: 54.5px;
+    color: #512C20;
+    margin-bottom: 20px;
+}
+.bilona-p-container{
+    
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    font-family: product-sans;
+    color: #512C20;
+
+}
+.bilona-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bilona-l{
+    text-align: justify;
+}
+.aboutb1{
+    text-align: right;
+    
+}
+@media(max-width:1024px){
+    .bilona-flex{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .know-bilona {
+        max-width: 974px;
+        min-width: 250px;
+    }
+
+
+}

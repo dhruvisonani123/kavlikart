@@ -1,0 +1,144 @@
+@font-face {
+    font-family: bakida-histori;
+    src: url("../bakilda-histori-font-1716167151-0/bakilda-histori.ttf");
+}
+@font-face {
+    font-family: product-sans;
+    src: url("../product-sans/Product\ Sans\ Regular.ttf");
+}
+
+.contact-us{
+    width: 100%;
+}
+.contact-heading h1{
+    text-align: center;
+    font-size: 50px;
+    line-height: 54.5px;
+    font-weight: 400;
+    color: #512C20;
+}
+.contact-form {
+    max-width: 1320px;
+    min-width: 250px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    /* height: 50px; */
+}
+.cow2-flex{
+    display: flex;
+    width: 100%;
+}
+.form-container{
+    max-width: 705px;
+    min-width: 250px;
+    
+    /* border: 1px solid black; */
+    /* height: 100px; */
+}
+.address{
+    width: 485px;
+    /* height: 100px; */
+    /* border: 1px solid black; */
+}
+.form-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.input-box {
+    width: 345px;
+    border: 1px solid #512C20;
+    border-radius: 10px;
+    height: 48px;
+    padding: 0 10px;
+    font-family: Product-Sans;
+    line-height: 30px;
+    font-size: 16px;
+
+}
+.input-row{
+    display: flex;
+    gap: 15px;
+    padding: 20px 0;
+    max-width: 705px;
+}
+
+.input-box5{
+    max-width: 705px;
+    min-width: 250px;
+    height: 174px;
+    border: 1px solid #512C20;
+    border-radius: 10px;
+    font-family: Product-Sans;
+    padding: 0 10px;
+    line-height: 30px;
+    font-size: 16px;
+}
+.address-p{
+    border: 1px solid black;
+    /* text-align: center; */
+}
+.ad-p{
+    text-align: justify;
+    color: #512C20;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: product-sans;
+}
+.detail p {
+    font-family: product-sans;
+    color: #512C20;
+    font-weight: 400;
+    line-height: 21.83px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.icon-flex{
+    display: flex;
+    gap: 19px
+}
+.icons{
+    /* width: ; */
+    justify-content: space-between;
+}
+.keep{
+    width: 485px;
+}
+.keep-contact{
+    padding: 32px 0;
+}
+
+.keep p{
+    color: #512C20;
+    font-weight: 400;
+}
+.all-icon img{
+    padding: 0 5px;
+}
+.button-submit{
+    padding: 30px 0 0 0;
+}
+@media (max-width:1024px) {
+    .cow2 img{
+        display: none;
+    }
+    .form-flex{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
+@media screen and (max-width:767px) {
+    .keep{
+        width: 250px;
+    }
+    .input-row{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+    }
+}

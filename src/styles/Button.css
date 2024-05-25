@@ -1,0 +1,21 @@
+.button-with-image {
+  background-image: url("../images/vector.png");
+  background-size: 100% 100%;
+  background-position: center;
+  border: none;
+  color: white;
+  width: 174px;
+  height: 55px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.9px;
+  cursor: pointer;
+}
+.button-with-image:hover {
+  color: #512c20;
+  background-image: url("../images//vector2.png");
+}

@@ -1,0 +1,113 @@
+@font-face {
+  font-family: Bakilda Histori;
+  src: url("../bakilda-histori-font-1716167151-0/bakilda-histori.ttf");
+}
+@font-face {
+  font-family: product-sans;
+  src: url("../product-sans/Product\ Sans\ Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.about {
+  color: #512c20;
+  font-weight: 400;
+  font-size: 50px;
+  font-family: Bakilda-Histori;
+  line-height: 54.5px;
+  text-align: center;
+}
+.about-container {
+  max-width: 1320px;
+  min-width: 250px;
+  margin: 0 auto;
+  padding: 50px 0px;
+}
+.about-image {
+  max-width: 557px;
+  min-width: 250px;
+  position: relative;
+}
+.about-lorem {
+  max-width: 714px;
+  min-width: 250px;
+  font-family: product-sans;
+}
+.kavlikart {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pfirst {
+  font-size: 24px;
+  line-height: 25px;
+  font-weight: 700;
+  /* text-align: justify; */
+  font-family: Product-Sans;
+  color: #512c20;
+}
+.psec .pthird {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  /* text-align: justify; */
+  color: #512c20;
+}
+.about-lorem {
+  text-align: justify;
+}
+.about-flex {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.about-lorem p {
+  color: #512c20;
+  font-family: procut-sans;
+}
+.aboutb1 img {
+  margin: -1px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .about-flex {
+    flex-wrap: wrap;
+  }
+  .about-image {
+    max-width: 100%;
+  }
+  .about-flex {
+    justify-content: center;
+  }
+  .about-lorem {
+    max-width: 100%;
+    padding: 0 25px;
+  }
+}
+
+@media screen and (max-width:767px) {
+
+  .about-image {
+width: 100%;
+}
+.about-lorem{
+  padding: 0 15px;
+}
+.aboutbg{
+  padding: 0 15px;
+}
+.aboutbg img{
+  width: 100%;
+}
+.kavlikart img{
+  width: 137px;
+}
+.about-container{
+  padding: 0;
+}
+}
