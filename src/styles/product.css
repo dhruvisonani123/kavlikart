@@ -17,13 +17,16 @@
 .gried-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    column-gap: 172px;
+    column-gap: 50px;
     row-gap: 50px;
+    padding: 20px 0;
+    justify-items: center;
 }
 .gried-head{
     max-width: 1320px;
     min-width: 250px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 .product-width:hover {
     background-image: url("../images/card.png");
@@ -32,7 +35,7 @@
     border-radius: 9px;
 }
 .product-width{
-    /* max-width: 325px; */
+    max-width: 325px;
     min-width: 250px;
     height: 425px;
     border: 1px solid #512C2080;
@@ -78,8 +81,9 @@ border-radius: 5px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         column-gap: 68px;
-        padding: 0 20px;
+        /* padding: 0 20px; */
         row-gap: 43px;
+        justify-items: center;
     }
 }
 

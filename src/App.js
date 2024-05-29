@@ -15,15 +15,18 @@ import Product from './components/Product';
 function App() {
   return (
     <div className="App">
-      {/* <Navbar/> */}
+      <Navbar/>
       
-      {/* <Home/> */}
-      {/* <About/> */}
+      <Home/>
+      
+
+      <About/>
+   
       <Aboutghee/>
-      {/* <Product/> */}
-      {/* <Factor/> */}
-      {/* <Contactus/> */}
-      {/* <Footer/> */}
+      <Product/>
+      <Factor/>
+      <Contactus/>
+      <Footer/>
       {/* <Button/> */}
       
 

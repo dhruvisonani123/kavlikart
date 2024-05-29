@@ -7,20 +7,23 @@ import homelast from "../images/homelast.png";
 const Home = () => {
   return (
     <>
-      <div className="home-section">
+    <div className=" home-section" style={{overflow:"hidden"}}>
+    
+
         <div className="cow-flex">
-          <div className="div-cow">
+          <div className="div-cow"  data-aos="fade-right"       data-aos-duration="2000"> 
             <img src={cow} alt="cow" className="cow-display" />
           </div>
           <div className="experience">
             <div className="experice-flex">
-              <div className="experice-magic">
+            
+              <div className="experice-magic "   data-aos="zoom-in"        data-aos-duration="2000">
                 <div className="experice-p">
-                  <p className="banner-h zoom-animation">
+                  <p className="banner-h ">
                     Experience the magic of Ghee in every bite.
                   </p>
                   <div className="experince-p2">
-                    <p className="banner-p zoom-animation">
+                    <p className="banner-p ">
                       Here are many variations of passages of Lorem Ipsum
                       available, but the majority have suffered alteration in
                       some form.
@@ -28,14 +31,17 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className="ghee">
+              <div className="ghee" data-aos="fade-left"        data-aos-duration="2000">
                 <img src={gheeimg} alt="ghee" className="ghee-display" />
               </div>
             </div>
           </div>
         </div>
+      
       </div>
-      <div className="home">
+      
+   
+    <div className="home" >
         <img src={homelast} alt="home last" />
       </div>
     </>

@@ -1,0 +1,30 @@
+@font-face {
+    font-family: product-sans;
+    src: url("../product-sans/Product\ Sans\ Regular.ttf");
+}
+
+
+
+
+.modal-txt{
+    color: #512C20;
+    font-size: 18px;
+    text-align: justify;
+    font-family:  product-sans;
+}
+.modal-txt h1{
+    font-size: 18px;
+}
+.modal-txt p{
+    text-align: justify;
+    color: #512C20;
+    font-family: product-sans;
+    line-height: 20px;
+}
+
+.modal-txt p span{
+    font-weight: 700;
+}
+.modal-button{
+    padding: 10px 0;
+}

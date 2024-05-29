@@ -7,66 +7,110 @@
     src: url("../product-sans/Product\ Sans\ Regular.ttf");
 }
 
-.About-container-main{
+.about-main-first{
     width: 100%;
-    background-image: url("../images/img.png");
+    height: 100%;
+    background-image: url("../images/bgimg.png");
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
 }
-.bilona{
-    max-width: 1230px;
+.about-containers{
+    max-width: 1218px;
     min-width: 250px;
     margin: 0 auto;
 }
-.know-bilona{
-    max-width:647px ;
+.about-p{
+    max-width: 647px;
     min-width: 250px;
+    width: 100%;
 }
-.about-bilona{
-    max-width:439px;
+.about-img{
+    max-width: 439px;
     min-width: 250px;
-    padding: 161px 0;
+    width: 100%;
 }
-
-.know-p-container{
-    font-family: Bakilda Histori;
-    font-size: 50px;
-    text-align: left;
+.know-p{
+    font-family: Bakilda-Histori;
+    font-weight: 400;
+    font-size: 45px;
     line-height: 54.5px;
-    color: #512C20;
-    margin-bottom: 20px;
+    color: #512c20;
+    text-align: left;
+
 }
-.bilona-p-container{
-    
+.know-secound{
+    text-align: justify;
     font-size: 18px;
+    color: #512c20;
     line-height: 30px;
-    text-align: justify;
-    font-family: product-sans;
-    color: #512C20;
-
+    font-weight: 400;
+    font-family: Product-Sans;
 }
-.bilona-flex{
-    display: flex;
-    justify-content: space-between;
+
+.about-flexs{
     align-items: center;
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+    /* padding: 0 20px; */
+    padding: 0 20px 100px 20px;
 }
-.bilona-l{
-    text-align: justify;
-}
-.aboutb1{
+.about-ghee-last{
     text-align: right;
-    
+    margin: -1px 0;
 }
-@media(max-width:1024px){
-    .bilona-flex{
-        flex-wrap: wrap;
+
+.about-g img{
+    max-width: 646.89px;
+}
+
+.about-ghee{
+    text-align: left;
+}
+.about-g{
+    text-align: left;
+}
+@media screen  and (max-width:1024px){
+    .about-ghee-last img{
+        max-width: 576.12px;
+    }
+    .about-p{
+        max-width: 100%;
+        padding: 0 25px;
+    }
+    .about-ghee-last img{
+        width: 576px;
+    }
+    .about-flexs{
         justify-content: center;
+        flex-wrap: wrap;
     }
     
-    .know-bilona {
-        max-width: 974px;
-        min-width: 250px;
+    .about-g img{
+        width:581.27px;
+        
+    }
+    .about-img{
+        padding: 30px 0;
     }
 
+}
+@media screen  and (max-width:676px){
+    .about-ghee-last img{
+        width: 250px;
+    }
+    .about-g img{
+        width: 280.05px;
+    }
+    .about-img img{
+        max-width: 250px;
+    }
+    .know-p{
+        font-size: 25px;
+        line-height: 27.25px;
+    }
+    .about-flexs {
 
+        padding: 0 20px 20px 20px;
+    }
 }

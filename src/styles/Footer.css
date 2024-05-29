@@ -6,6 +6,8 @@ align-items: center;
 display: flex;
 justify-content: center;
     background-image: url("../images/footer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .footer{
     width: 584px;

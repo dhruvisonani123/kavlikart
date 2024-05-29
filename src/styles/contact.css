@@ -47,7 +47,9 @@
     gap: 20px;
 }
 .input-box {
-    width: 345px;
+   max-width:345px;
+   min-width: 100px;
+   width: 100%;
     border: 1px solid #512C20;
     border-radius: 10px;
     height: 48px;
@@ -60,13 +62,18 @@
 .input-row{
     display: flex;
     gap: 15px;
-    padding: 20px 0;
+    /* padding: 20px 0; */
     max-width: 705px;
+    min-width: 250px;
+    margin: 20px 0;
 }
-
+form{
+    padding: 10px ;
+}
 .input-box5{
     max-width: 705px;
     min-width: 250px;
+    width: 100%;
     height: 174px;
     border: 1px solid #512C20;
     border-radius: 10px;
@@ -74,6 +81,7 @@
     padding: 0 10px;
     line-height: 30px;
     font-size: 16px;
+    /* margin: 10px 0; */
 }
 .address-p{
     border: 1px solid black;
@@ -120,7 +128,7 @@
     padding: 0 5px;
 }
 .button-submit{
-    padding: 30px 0 0 0;
+    padding: 20px 0;
 }
 @media (max-width:1024px) {
     .cow2 img{
@@ -129,6 +137,7 @@
     .form-flex{
         flex-wrap: wrap;
         justify-content: center;
+        gap: unset;
     }
     
 }
@@ -139,6 +148,26 @@
     .input-row{
         flex-wrap: wrap;
         justify-content: center;
-        padding: 10px;
+        /* padding: 10px; */
+        gap: 0;
+        margin: 0;
+    }
+    .input-box {
+        max-width:705px;
+        min-width: 250px;
+        width: 100%;
+         border: 1px solid #512C20;
+         border-radius: 10px;
+         height: 48px;
+         padding: 0 10px;
+         font-family: Product-Sans;
+         line-height: 30px;
+         font-size: 16px;
+         margin: 10px 0;
+     
+     }
+     .input-box5{
+        
+        margin: 10px 0;
     }
 }

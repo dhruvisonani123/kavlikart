@@ -28,8 +28,8 @@
   padding: 50px 0px;
 }
 .about-image {
-  max-width: 557px;
-  min-width: 250px;
+  /* max-width: 557px; */
+  /* min-width: 250px; */
   position: relative;
 }
 .about-lorem {
@@ -51,7 +51,8 @@
   font-family: Product-Sans;
   color: #512c20;
 }
-.psec .pthird {
+.psec  {
+  font-family: Product-Sans;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
@@ -64,7 +65,9 @@
 .about-flex {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
+  gap: 20px;
+  padding: 0 20px;
+  align-items: center;
 }
 .about-lorem p {
   color: #512c20;
@@ -72,6 +75,10 @@
 }
 .aboutb1 img {
   margin: -1px 0;
+}
+.div-cow{
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -92,13 +99,14 @@
 
 @media screen and (max-width:767px) {
 
-  .about-image {
+  .about-image img {
 width: 100%;
 }
 .about-lorem{
   padding: 0 15px;
 }
 .aboutbg{
+
   padding: 0 15px;
 }
 .aboutbg img{
